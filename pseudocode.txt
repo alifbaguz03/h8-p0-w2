@@ -1,0 +1,51 @@
+1.Newton Second Law
+ Secara matematis hukum II Newton di rumuskan sebagai ∑F=mxa
+	∑F= resultan gaya(newtoon)
+	m = massa benda(kg)
+	a = percepatan benda(m/s2)
+
+
+	STORE "m" with 600
+	STORE "a" with 2
+	STORE "∑f" without any value
+
+	CALCULATE "m" times "a"
+	SET "∑F" value with calculation result
+
+	DISPLAY "∑f"
+
+
+2.TAHUN KABISAT
+	STORE "tahun"  to any number
+	IF "kabisat"
+		do "tahun kabiisat"%4≠100
+	DISPLAY "kabisat"
+
+	IF"KABISAT"
+		DO "tahun kabisat"%4=100==400
+	DISPLAY "kabisat"
+
+3.LAUNDRY DAY
+	STORE"pakaian foxie"
+
+	WHILE "pakaian foxie" < 20
+		Do "recalculate"
+	ELSE
+		DO"turn on the washing machine"
+	Do"start washing"
+
+4.PERIKSA KUKU
+	STORE "periksa kuku"
+
+	WHILE "periksa kuku"= 40
+	IF "periksa kuku">"kuku panjang"
+		Do"menghukum"
+	ELSE
+		DO"memuji"
+
+	DO"pemeriksaan selesai"
+
+	
+	
+
+
